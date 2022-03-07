@@ -1,5 +1,5 @@
 //yargs sirve para poder manipular (pasar datos o condicinar datos) datos desde el backend(consola)
-//se muestra con el --help y puedes invocarlo como comando como el dir por ejemplo
+//puedes crear tus propios comandos se muestra con el --help y puedes invocarlo como comando como el dir por ejemplo
 const argv = require('yargs')
 .option('b',{
     alias : 'base',

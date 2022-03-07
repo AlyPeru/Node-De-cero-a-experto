@@ -4,10 +4,9 @@ const fs = require('fs');
 const colors =require('colors');
 //asi async como me gusta mas 
 const crearArchivo = async(base = 5 , listar, limit = 10) =>{
-console.log(limit)
+
     try{
 
-    
         let salida, consola = ''
         for(let i =1 ; i<=limit ; i++){
             salida += `${base} x ${ i} = ${base * i}\n `;
